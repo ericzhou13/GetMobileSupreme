@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     var passwordText = UITextField()
     var loginButton = UIButton()
     var loggedIn = false
+    var logStatus = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -151,12 +152,12 @@ class ViewController: UIViewController {
             }
             else{
                 print("Passed")
-                let vc = MainPage()
+                self.logStatus = true
+                let vc = NavigationBarController()
                 self.navigationController?.pushViewController(vc, animated: true)
-            }
-            
         }
     }
 
 }
 
+}

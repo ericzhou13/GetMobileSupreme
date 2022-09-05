@@ -1,18 +1,24 @@
 //
-//  PushViewController.swift
+//  AddMoneyViewController.swift
 //  Login Page
 //
-//  Created by Jeffrey Hong on 8/9/22.
+//  Created by Jeffrey Hong on 8/21/22.
 //
 
 import UIKit
 
-class MainPage: UIViewController {
-
+class TransactionsViewController: UIViewController {
+    let backbutton = UIBarButtonItem(
+        title: "",
+        style: UIBarButtonItem.Style.plain,
+        target: nil,
+            action: nil
+    );
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemPink
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backbutton;
+        view.backgroundColor = .white
         // Do any additional setup after loading the view.
     }
     

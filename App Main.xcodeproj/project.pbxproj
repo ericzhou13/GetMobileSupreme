@@ -7,28 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F56B39628A31B73005F9E10 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56B39528A31B73005F9E10 /* MainPage.swift */; };
+		8F56B39628A31B73005F9E10 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F56B39528A31B73005F9E10 /* MainPageController.swift */; };
+		8FCAB66E28B2D57800DC2981 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB66D28B2D57800DC2981 /* PayViewController.swift */; };
+		8FCAB67028B2D5AA00DC2981 /* TransactionsiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB66F28B2D5AA00DC2981 /* TransactionsiewController.swift */; };
+		8FCAB67228B5CB0800DC2981 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB67128B5CB0800DC2981 /* SettingsViewController.swift */; };
+		8FCAB67A28B978FF00DC2981 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB67928B978FF00DC2981 /* SettingsTableViewCell.swift */; };
+		8FCAB67C28B97DB100DC2981 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCAB67B28B97DB100DC2981 /* Settings.swift */; };
+		8FCAB67F28BA9F8A00DC2981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCAB67E28BA9F8A00DC2981 /* Assets.xcassets */; };
+		8FD0367828AAF68D00DFAB40 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0367728AAF68D00DFAB40 /* CalendarViewController.swift */; };
 		8FE4841C2889E92B00EDCEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4841B2889E92B00EDCEAB /* AppDelegate.swift */; };
 		8FE4841E2889E92B00EDCEAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4841D2889E92B00EDCEAB /* SceneDelegate.swift */; };
 		8FE484202889E92B00EDCEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE4841F2889E92B00EDCEAB /* ViewController.swift */; };
-		8FE484252889E92D00EDCEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FE484242889E92D00EDCEAB /* Assets.xcassets */; };
 		8FE484282889E92D00EDCEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE484262889E92D00EDCEAB /* LaunchScreen.storyboard */; };
 		8FE48432288B2EE700EDCEAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FE48431288B2EE700EDCEAB /* GoogleService-Info.plist */; };
 		8FE48435288B310100EDCEAB /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE48434288B310100EDCEAB /* FirebaseAnalytics */; };
 		8FE48437288B310100EDCEAB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE48436288B310100EDCEAB /* FirebaseAuth */; };
 		8FE48439288B310100EDCEAB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8FE48438288B310100EDCEAB /* FirebaseFirestore */; };
+		8FF51B0628A719B5004D57C1 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF51B0528A719B5004D57C1 /* RestaurantsViewController.swift */; };
+		8FF51B0828A71B0F004D57C1 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF51B0728A71B0F004D57C1 /* SocialViewController.swift */; };
+		8FF51B0A28A726DD004D57C1 /* NavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF51B0928A726DD004D57C1 /* NavigationBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F56B39528A31B73005F9E10 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		8F56B39528A31B73005F9E10 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		8FCAB66D28B2D57800DC2981 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		8FCAB66F28B2D5AA00DC2981 /* TransactionsiewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsiewController.swift; sourceTree = "<group>"; };
+		8FCAB67128B5CB0800DC2981 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8FCAB67928B978FF00DC2981 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		8FCAB67B28B97DB100DC2981 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8FCAB67E28BA9F8A00DC2981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FD0367728AAF68D00DFAB40 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		8FE484182889E92B00EDCEAB /* Login Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE4841B2889E92B00EDCEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FE4841D2889E92B00EDCEAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8FE4841F2889E92B00EDCEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FE484242889E92D00EDCEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FE484272889E92D00EDCEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FE484292889E92D00EDCEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE48431288B2EE700EDCEAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8FF51B0528A719B5004D57C1 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		8FF51B0728A71B0F004D57C1 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		8FF51B0928A726DD004D57C1 /* NavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8FCAB66C28B2D4F200DC2981 /*  MainPageSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				8FCAB66D28B2D57800DC2981 /* PayViewController.swift */,
+				8FCAB66F28B2D5AA00DC2981 /* TransactionsiewController.swift */,
+				8FCAB67128B5CB0800DC2981 /* SettingsViewController.swift */,
+				8FCAB67D28B97DB900DC2981 /* SettingsTableView */,
+			);
+			path = " MainPageSubviews";
+			sourceTree = "<group>";
+		};
+		8FCAB67D28B97DB900DC2981 /* SettingsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8FCAB67B28B97DB100DC2981 /* Settings.swift */,
+				8FCAB67928B978FF00DC2981 /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsTableView;
+			sourceTree = "<group>";
+		};
 		8FE4840F2889E92B00EDCEAB = {
 			isa = PBXGroup;
 			children = (
@@ -67,13 +105,26 @@
 				8FE4841B2889E92B00EDCEAB /* AppDelegate.swift */,
 				8FE4841D2889E92B00EDCEAB /* SceneDelegate.swift */,
 				8FE4841F2889E92B00EDCEAB /* ViewController.swift */,
-				8F56B39528A31B73005F9E10 /* MainPage.swift */,
-				8FE484242889E92D00EDCEAB /* Assets.xcassets */,
+				8FF51B0928A726DD004D57C1 /* NavigationBarController.swift */,
+				8FF51B0428A71926004D57C1 /* Pages Within App */,
 				8FE484262889E92D00EDCEAB /* LaunchScreen.storyboard */,
+				8FCAB67E28BA9F8A00DC2981 /* Assets.xcassets */,
 				8FE484292889E92D00EDCEAB /* Info.plist */,
 				8FE48431288B2EE700EDCEAB /* GoogleService-Info.plist */,
 			);
 			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		8FF51B0428A71926004D57C1 /* Pages Within App */ = {
+			isa = PBXGroup;
+			children = (
+				8FD0367728AAF68D00DFAB40 /* CalendarViewController.swift */,
+				8FF51B0528A719B5004D57C1 /* RestaurantsViewController.swift */,
+				8F56B39528A31B73005F9E10 /* MainPageController.swift */,
+				8FCAB66C28B2D4F200DC2981 /*  MainPageSubviews */,
+				8FF51B0728A71B0F004D57C1 /* SocialViewController.swift */,
+			);
+			path = "Pages Within App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FE484132889E92B00EDCEAB /* Build configuration list for PBXProject "Login Page" */;
+			buildConfigurationList = 8FE484132889E92B00EDCEAB /* Build configuration list for PBXProject "App Main" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE484282889E92D00EDCEAB /* LaunchScreen.storyboard in Resources */,
-				8FE484252889E92D00EDCEAB /* Assets.xcassets in Resources */,
+				8FCAB67F28BA9F8A00DC2981 /* Assets.xcassets in Resources */,
 				8FE48432288B2EE700EDCEAB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,9 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD0367828AAF68D00DFAB40 /* CalendarViewController.swift in Sources */,
+				8FCAB67028B2D5AA00DC2981 /* TransactionsiewController.swift in Sources */,
+				8FCAB67A28B978FF00DC2981 /* SettingsTableViewCell.swift in Sources */,
+				8FCAB67C28B97DB100DC2981 /* Settings.swift in Sources */,
+				8FCAB67228B5CB0800DC2981 /* SettingsViewController.swift in Sources */,
 				8FE484202889E92B00EDCEAB /* ViewController.swift in Sources */,
+				8FF51B0828A71B0F004D57C1 /* SocialViewController.swift in Sources */,
+				8FF51B0628A719B5004D57C1 /* RestaurantsViewController.swift in Sources */,
+				8FCAB66E28B2D57800DC2981 /* PayViewController.swift in Sources */,
+				8FF51B0A28A726DD004D57C1 /* NavigationBarController.swift in Sources */,
 				8FE4841C2889E92B00EDCEAB /* AppDelegate.swift in Sources */,
-				8F56B39628A31B73005F9E10 /* MainPage.swift in Sources */,
+				8F56B39628A31B73005F9E10 /* MainPageController.swift in Sources */,
 				8FE4841E2889E92B00EDCEAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +407,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FE484132889E92B00EDCEAB /* Build configuration list for PBXProject "Login Page" */ = {
+		8FE484132889E92B00EDCEAB /* Build configuration list for PBXProject "App Main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FE4842A2889E92D00EDCEAB /* Debug */,
